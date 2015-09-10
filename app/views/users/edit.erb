@@ -1,0 +1,9 @@
+<h1>Edit my stuff</h1>
+
+<form method="POST" action="/users/<%= @user.id %>">
+  <input type="hidden" name="_method" value="put" />
+  <div><label>Name: </label><input type="text" name="user[name]" value="<%= @user.name %>"/></div>
+  <div><label>Email: </label><input type="text" name="user[email]" value="<%= @user.email %>"/></div>
+  <div><label>Password: </label><input type="password" name="user[password]" value="<%= @user.password %>"/></div>
+  <input type="submit"  />
+</form>

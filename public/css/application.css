@@ -1,0 +1,26 @@
+body {
+  margin: 20px auto;
+}
+
+.container {
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0 30px;
+}
+
+/*ul, li {
+  text-align: left;
+}*/
+
+.container ul, .container li {
+  padding: 0;
+  display: inline;
+  text-decoration: none;
+}
+
+form div {
+  margin: 10px;
+}

@@ -1,0 +1,7 @@
+<h1><%= @user.name %></h1>
+
+<h3>Sayings</h3>
+
+<% if current_user.id == @user.id %>
+<a href="/users/<%= @user.id %>/edit">Edit User</a>
+<% end %>
